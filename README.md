@@ -61,27 +61,26 @@ Benefits include:
 
 ## Screenshots
 
-### Application Homepage
+## Application Homepage
 
 screenshots/homepage.png
+screenshots/subscription-successful.png
 
-### CloudFront Distribution
+## CloudFront Distribution
 
 ![CloudFront Distribution](screenshots/API Gateway Integration
 
-### API Gateway Integration
+## API Gateway Integration
 
-![API Gateway Integration](screenshots/
+screenshots/API-Gateway-Integration.png
 
-### S3 Bucket
+## S3 Bucket
 
-![Seenshots/S3-bucket.png
+screenshots/S3-bucket.png
 
-### DynamoDB Records
+## DynamoDB Records
 
-![DynamoDB Records](screenshots/dynamodbssful Subscription
- 
-![Successfulsubscription-successful.png
+screenshots/dynamodb-items.png
 
 ## Author
 
