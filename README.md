@@ -1,5 +1,5 @@
 AWS Serverless Three-Tier Web Architecture
-Overview
+## Overview
 
 Designed and implemented a fully serverless three-tier web application using AWS managed services to provide centralized email record storage with scalable, multi-user access.
 
