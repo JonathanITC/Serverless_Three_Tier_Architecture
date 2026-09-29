@@ -67,15 +67,21 @@ screenshots/homepage.png
 
 ### CloudFront Distribution
 
-screenshots/CloudFront-Details.png
+![CloudFront Distribution](screenshots/API Gateway Integration
 
 ### API Gateway Integration
 
-screenshots/api-gateway-integration.png
+![API Gateway Integration](screenshots/
+
+### S3 Bucket
+
+![Seenshots/S3-bucket.png
 
 ### DynamoDB Records
 
-screenshots/dynamodb-items.png
+![DynamoDB Records](screenshots/dynamodbssful Subscription
+ 
+![Successfulsubscription-successful.png
 
 ## Author
 
