@@ -3,7 +3,10 @@ AWS Serverless Three-Tier Web Architecture
 
 Designed and implemented a fully serverless three-tier web application using AWS managed services to provide centralized email record storage with scalable, multi-user access.
 
-The architecture emphasizes:
+## Architecture Diagram
+<img width="807" height="436" alt="Serverless Architecture Diagram" src="https://github.com/user-attachments/assets/495e9c1e-ad39-4529-b388-ec0c9684bc2e" />
+
+## The architecture emphasizes:
 
 Low operational overhead
 Automatic scaling
@@ -13,14 +16,15 @@ Simplified maintenance
 
 Unlike traditional serverless designs, this solution removes AWS Lambda and leverages direct API Gateway to DynamoDB integration using Velocity Template Language (VTL) mapping templates.
 
-Architecture
-Presentation Tier
+Architecture:
+
+## Presentation Tier
 Amazon S3
 Amazon CloudFront
 
 Static website content is hosted in Amazon S3 and distributed globally through Amazon CloudFront to reduce latency and improve end-user performance.
 
-Logic Tier
+## Logic Tier
 Amazon API Gateway
 VTL Mapping Templates
 
@@ -28,12 +32,12 @@ API Gateway receives requests from the web application and transforms payloads u
 
 This design removes Lambda execution overhead and reduces operating costs.
 
-Data Tier
+## Data Tier
 Amazon DynamoDB
 
 DynamoDB serves as the highly available NoSQL backend and enables automatic scaling with low-latency reads and writes.
 
-Security
+## Security
 IAM least-privilege policies
 Restricted API permissions
 AWS-managed service security controls
@@ -53,7 +57,7 @@ Business Outcome
 
 The solution modernizes centralized email storage by replacing traditional Outlook archive dependency with a cloud-native architecture.
 
-Benefits include:
+## Benefits include:
 
 Multi-user accessibility
 Improved scalability
@@ -61,7 +65,7 @@ Reduced maintenance effort
 Lower infrastructure cost
 Increased availability
 
-AWS Services Used
+## AWS Services Used
 Amazon S3
 Amazon CloudFront
 Amazon API Gateway
