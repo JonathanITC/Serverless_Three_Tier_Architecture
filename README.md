@@ -1,14 +1,12 @@
 # AWS Serverless Three-Tier Application
  
 ## Overview
- 
 Designed and implemented a fully serverless three-tier web architecture using AWS managed services to provide centralized email storage accessible by multiple users.
  
 ## Architecture
 <img width="807" height="436" alt="Serverless Architecture Diagram" src="https://github.com/user-attachments/assets/495e9c1e-ad39-4529-b388-ec0c9684bc2e" />
 
 ## AWS Services Used
- 
 - Amazon S3
 - Amazon CloudFront
 - Amazon API Gateway
@@ -16,11 +14,9 @@ Designed and implemented a fully serverless three-tier web architecture using AW
 - AWS IAM
  
 ## Design Decisions
- 
 The architecture intentionally removes AWS Lambda and uses API Gateway Velocity Template Language (VTL) mapping templates to write directly to DynamoDB.
 
 Benefits:
- 
 - Reduced latency
 - Lower operational overhead
 - Reduced cost
@@ -28,7 +24,6 @@ Benefits:
 - Automatic scaling
  
 ## Architecture Flow
- 
 1. User accesses application through CloudFront.
 2. CloudFront retrieves static website content from Amazon S3.
 3. User submits an email record using the web form.
@@ -37,12 +32,10 @@ Benefits:
 6. DynamoDB stores the email record.
  
 ## Security
- 
 - Least-privilege IAM policies
 - HTTPS delivery through CloudFront
 - AWS-managed service security controls
  
 ## Role
- 
 Architect & Developer
 Designed, implemented, secured, tested, and documented the complete solution.
