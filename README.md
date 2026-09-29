@@ -5,6 +5,7 @@ Designed and implemented a fully serverless three-tier web architecture using AW
  
 ## Architecture
 <img width="807" height="436" alt="Serverless Architecture Diagram" src="https://github.com/user-attachments/assets/495e9c1e-ad39-4529-b388-ec0c9684bc2e" />
+
 screenshots/Serverless-Architecture-Diagram.png
 
 ## AWS Services Used
