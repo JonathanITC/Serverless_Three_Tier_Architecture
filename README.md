@@ -18,7 +18,7 @@ Designed and implemented a fully serverless three-tier web architecture using AW
 ## Design Decisions
  
 The architecture intentionally removes AWS Lambda and uses API Gateway Velocity Template Language (VTL) mapping templates to write directly to DynamoDB.
- 
+
 Benefits:
  
 - Reduced latency
