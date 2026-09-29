@@ -80,7 +80,7 @@ screenshots/S3-bucket.png
 
 ## DynamoDB Records
 
-screenshots/dynamodb-items.png
+![Successful Subscription](subscription-successful.png)
 
 ## Author
 
