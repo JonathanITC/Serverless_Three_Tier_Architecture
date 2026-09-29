@@ -8,7 +8,7 @@ The application allows users to subscribe to monthly content through a web inter
 
 ## Architecture Diagram
 
-screenshots/Serverless-Architecture-Diagram.png
+<img width="807" height="436" alt="Serverless Architecture Diagram" src="https://github.com/user-attachments/assets/f2024046-c6c0-46ca-99a5-6fd04b62f6d5" />
 
 ## Business Problem
 
@@ -63,24 +63,24 @@ Benefits include:
 
 ## Application Homepage
 
-screenshots/homepage.png
-screenshots/subscription-successful.png
+<img width="745" height="307" alt="homepage" src="https://github.com/user-attachments/assets/a4e3f875-8eba-43c8-b31f-49db2759a4a7" />
+<img width="685" height="301" alt="subscription-successful" src="https://github.com/user-attachments/assets/4634b245-e06d-4e4c-8d9e-87a6e902c83b" />
 
 ## CloudFront Distribution
 
-![CloudFront Distribution](screenshots/API Gateway Integration
+<img width="800" height="99" alt="CloudFront-Details" src="https://github.com/user-attachments/assets/1b7bfc74-70b0-433e-8994-a81fbbe0bb34" />
 
 ## API Gateway Integration
 
-screenshots/API-Gateway-Integration.png
+<img width="1603" height="770" alt="API-Gateway-Integration" src="https://github.com/user-attachments/assets/5ed27f49-cc3d-4b9d-86fc-950ec3538a5c" />
 
 ## S3 Bucket
 
-screenshots/S3-bucket.png
+<img width="799" height="160" alt="S3-bucket" src="https://github.com/user-attachments/assets/9f2c466c-b057-4a06-ab1e-547a40bacc20" />
 
 ## DynamoDB Records
 
-![Successful Subscription](subscription-successful.png)
+<img width="803" height="375" alt="dynamodb-items" src="https://github.com/user-attachments/assets/ec1b8038-e044-4cd7-8be9-8a2166aa034b" />
 
 ## Author
 
